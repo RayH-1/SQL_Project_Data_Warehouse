@@ -14,7 +14,7 @@ WARNING:
 */
 
 USE master;
-GO
+GO -- seperate batches when working with multiple SQL queries
 
 -- Drop and recreate the 'DataWarehouse' database
 IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
