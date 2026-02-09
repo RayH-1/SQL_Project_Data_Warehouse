@@ -1,11 +1,14 @@
 
 # Data Warehouse and Analytics Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+Welcome to the **Data Warehouse and Analytics Project** repository! 
+A big thanks to *[SQL Data Warehouse from Scratch by Bata with Baraa](https://www.youtube.com/watch?v=9GVqKuTVANE&t=4265s)* for this structured project.
+
+
+In this project, I demonstrate my ability to create a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
 ---
-## 🏗️ Data Architecture
+## Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
 ![Data Architecture](docs/data_architecture.png)
@@ -15,7 +18,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ---
-## 📖 Project Overview
+## Project Overview
 
 This project involves:
 
@@ -24,30 +27,27 @@ This project involves:
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
-🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+
+Topics that this project covered include:
 - SQL Development
-- Data Architect
+- Data Architecture
 - Data Engineering  
-- ETL Pipeline Developer  
+- ETL Pipeline Development  
 - Data Modeling  
 - Data Analytics  
 
 ---
 
-## 🛠️ Important Links & Tools:
+## Important Links & Tools:
 
-Everything is for Free!
 - **[Datasets](datasets/):** Access to the project dataset (csv files).
 - **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
 - **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
-- **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
-- **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
-- **[Notion](https://www.notion.com/):** All-in-one tool for project management and organization.
-- **[Notion Project Steps](https://thankful-pangolin-2ca.notion.site/SQL-Data-Warehouse-Project-16ed041640ef80489667cfe2f380b269?pvs=4):** Access to All Project Phases and Tasks.
+- **[Notion Project Steps](https://www.notion.so/SQL-Data-Warehouse-Project-302b415daf2180d3ad3bce19820ceb82?source=copy_link):** Access to All Project Phases and Tasks.
 
 ---
 
-## 🚀 Project Requirements
+## Project Requirements
 
 ### Building the Data Warehouse (Data Engineering)
 
@@ -73,9 +73,8 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
 
-For more details, refer to [docs/requirements.md](docs/requirements.md).
 
-## 📂 Repository Structure
+##  Repository Structure
 ```
 data-warehouse-project/
 │
@@ -103,8 +102,21 @@ data-warehouse-project/
 ```
 ---
 
+# Reflection and Takeaways
+This project closely mirrors challenges I encountered during my role as a working student in data at Klockner.i, including integrating multiple source systems, addressing data quality issues, and designing models that support analytical use cases. Rebuilding a data warehouse end-to-end allowed me to revisit these challenges with a structured, best-practice-driven approach and evaluate alternative solutions.
 
-## 🛡️ License
+Through this project, I gained a clearer understanding of my role within the data lifecycle, from raw data ingestion and transformation to dimensional modeling and analytics enablement. I strengthened my ability to design data models that balance technical efficiency with business usability.
+
+Key takeaways from this project include:
+
+- A solid, end-to-end understanding of modern data warehousing using **Medallion Architecture**
+
+- Practical experience designing and implementing **ETL pipelines** in SQL Server
+
+- Improved confidence in **dimensional data modeling** (fact and dimension tables)
+
+- A stronger understanding of how data engineering decisions impact downstream analytics and business insights
+
+Overall, this project reinforced my readiness to contribute to real-world data engineering and analytics teams by applying structured data architectures, clean data modeling practices, and business-oriented thinking.
 
 
-## 🌟 About Me
